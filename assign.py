@@ -1,0 +1,9 @@
+a=float(input()) 
+b=float(input()) 
+c=float(input()) 
+d=float(a+b+c) 
+e=float(d-(d*0.1))  
+if(d>50): 
+print(e) 
+else: 
+print(d)
